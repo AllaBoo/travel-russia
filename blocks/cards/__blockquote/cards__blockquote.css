@@ -1,0 +1,20 @@
+.cards__blockquote {
+  margin: 0;
+}
+
+
+@media (max-width: 1020px) {
+  .cards__blockquote {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards__blockquote {
+    margin: 0 16px 0;
+  }
+}
+  

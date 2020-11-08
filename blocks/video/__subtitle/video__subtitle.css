@@ -1,0 +1,21 @@
+.video__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0 0 30px 30px;
+  /* сверху | справа | снизу | слева */
+  z-index: 2;
+}
+
+@media (max-width: 1020px) {
+  .video__subtitle {
+    margin: 0 0 24px 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .video__subtitle {
+    margin: 0 0 16px 16px;
+  }
+}

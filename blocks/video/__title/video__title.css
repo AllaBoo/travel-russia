@@ -1,0 +1,42 @@
+.video__title {
+  max-width: 322px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 12px 0 18px 30px;
+  /* сверху | справа | снизу | слева */
+  z-index: 2;
+}
+
+@media (max-width: 1024px) {
+  .video__title {
+    margin: 12px 0 18px 30px;
+    /* сверху | справа | снизу | слева */
+  }
+}
+
+
+@media (max-width: 1020px) {
+  .video__title {
+    font-size: 24px;
+    line-height: 26px;
+    margin: 8px 0 12px 24px;
+    /* сверху | справа | снизу | слева */
+  }
+}
+
+
+@media (max-width: 370px) {
+  .video__title {
+    margin: 8px 0 2px 24px;
+    /* сверху | справа | снизу | слева */
+  }
+}
+
+
+@media (max-width: 320px) {
+  .video__title {
+    margin: 8px 0 4px 16px;
+    /* сверху | справа | снизу | слева */
+  }
+}

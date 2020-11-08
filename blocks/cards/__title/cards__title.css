@@ -1,0 +1,16 @@
+
+.cards__title {
+  margin: 24px 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media (max-width: 1020px) {
+  .cards__title{
+    text-align: center;
+    order: 1;
+    margin: 1rem auto 0;
+  }
+}

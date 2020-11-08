@@ -1,0 +1,12 @@
+.cards__image {
+  width: 25%;
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+}
+
+@media (max-width: 1020px) {
+  .cards__image {
+    margin: 47px auto 0;
+  }
+}

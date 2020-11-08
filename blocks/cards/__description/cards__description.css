@@ -1,0 +1,24 @@
+.cards__description {
+  width: 100%;
+  margin: 42px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media (max-width: 1020px) {
+  .cards__description {
+    text-align: center;
+    order: 2;
+    margin: 24px auto 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards__description {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

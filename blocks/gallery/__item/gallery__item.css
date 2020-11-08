@@ -1,0 +1,38 @@
+.gallery__item {
+  width: 300px;
+  height: 204px;
+  padding: 8px;
+  object-fit: contain;
+}
+
+@media (max-width : 1024px) {
+  .gallery__item {
+    width: 314px;
+    height: 214px;
+    padding: 7px;
+  }
+}
+
+@media (max-width : 768px) {
+  .gallery__item {
+    width: 368px;
+    height: 250px;
+    padding: 8px;
+  }
+}
+
+@media (max-width : 375px) {
+  .gallery__item {
+    width: 343px;
+    height: 240px;
+    padding: 4px 0;
+  }
+}
+
+@media (max-width : 360px) {
+  .gallery__item {
+    width: 288px;
+    height: 208px;
+    padding: 8px 0;
+  }
+}

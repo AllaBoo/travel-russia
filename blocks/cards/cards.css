@@ -1,0 +1,36 @@
+@import url(./__blockquote/cards__blockquote.css);
+@import url(./__description/cards__description.css);
+@import url(./__image/cards__image.css);
+@import url(./__item/cards__item.css);
+@import url(./__title/cards__title.css);
+
+.cards {
+  max-width: 1184px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  margin: 0 auto 102px;
+}
+
+
+
+@media (max-width: 1020px) {
+  .cards {
+    width: 382px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    width: 100%;
+  }
+}
+
+@media (max-width: 410px) {
+  .cards {
+    margin: 0 0 3rem;
+  }
+}

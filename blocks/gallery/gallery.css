@@ -1,0 +1,45 @@
+@import url(./__item/gallery__item.css);
+
+.gallery {
+  max-width: 1216px;
+  margin: 102px auto 0;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (max-width: 1440) {
+  .gallery {
+      width: 84%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .gallery {
+      width: 95%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gallery {
+      width: 93%;
+      margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+      width: 98%;
+      margin: 97px auto 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .gallery {
+    width: 100%;
+    margin: 64px auto 16px;
+  }
+}

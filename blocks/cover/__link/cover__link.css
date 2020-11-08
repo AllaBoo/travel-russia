@@ -1,0 +1,65 @@
+.cover__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-image: url("../../../images/baikal-dogs.jpg");
+  width: 100%;
+  max-width: 1184px;
+  height: 594px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  z-index: 0;
+}
+
+.cover__link:hover{
+  transition: linear 1s;
+  opacity: .8;
+}
+
+@media (max-width: 1024px) {
+  .cover__link  {
+    width: 100%;
+    height: 562px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link  {
+    background-image: url("../../../images/baikal-dogs-768.jpg");
+    height: 500px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .cover__link  {
+    height: auto;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .cover__link  {
+    height: 400px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .cover__link {
+    background-image: url("../../../images/baikal-dogs-375.jpg");
+    height: 272px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__link {
+    height: 216px;
+  }
+}
